@@ -13,6 +13,8 @@ My research interests include active matter dynamics, the Leidenfrost effect, an
 Education
 ======
 
+<div class="section-block">
+
 **Sep. 2025 – Present**  
 **[Ajou University](https://www.ajou.ac.kr/en/index.do#a)**, Suwon, South Korea  
 M.S. in Mechanical Engineering
@@ -21,11 +23,13 @@ M.S. in Mechanical Engineering
 **[Ajou University](https://www.ajou.ac.kr/en/index.do#a)**, Suwon, South Korea  
 B.S. in Mechanical Engineering
 
+</div>
+
 Experience
 ======
 
 **Mar. 2023 – Aug. 2025**  
-**[Softlab](https://www.softlab.ajou.ac.kr)**, Ajou University, Suwon, South Korea  
+**[Softlab](https://www.softlab.ajou.ac.kr)**, [Ajou University](https://www.ajou.ac.kr/en/index.do#a), Suwon, South Korea  
 *Undergraduate Research Student*  
 
 - Advisor: **[Prof. Jonghyun Ha](https://me.ajou.ac.kr/me/people/faculty.do?mode=view&empl_no=$cms$EwBmwRhAWZqA&mngt_no=$cms$EwBmwRhAWZqA&uniCd=h&deptCd=$cms$CIZQDAzGYIxgTDIA&cate=2)**  
