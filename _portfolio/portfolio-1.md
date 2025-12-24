@@ -37,38 +37,37 @@ Recognized for outstanding academic performance (top 5% of the department).
 
 ## 🎤 Conference Presentations
 
-- **Leidenfrost-induced active matter dynamics of spherical hydrogels**  
-  *(APS Division of Fluid Dynamics Meeting 2025)*
+## 🎤 Conference Presentations
+
+- **APS Division of Fluid Dynamics Meeting 2025**  
+  <span class="talk-title">Leidenfrost-induced active matter dynamics of spherical hydrogels</span>
   <details class="talk-toggle">
     <summary>📷 View presentation photos</summary>
     <div class="portfolio-row">
-      <img src="/images/APSDFD2025.jpg" class="portfolio-img slide" alt="APS DFD 2025 slide">
-      <img src="/images/APSDFD2025.jpeg" class="portfolio-img photo" alt="APS DFD 2025 photo">
+      <img src="/images/APSDFD2025.jpg" class="portfolio-img slide">
+      <img src="/images/APSDFD2025.jpeg" class="portfolio-img photo">
     </div>
   </details>
 
 
-
-- **Leidenfrost-induced active matter dynamics of spherical hydrogels**  
-  *(Asian Congress of Fluid Mechanics 2025)*
+- **Asian Congress of Fluid Mechanics 2025**  
+  <span class="talk-title">Leidenfrost-induced active matter dynamics of spherical hydrogels</span>
   <details class="talk-toggle">
     <summary>📷 View presentation photos</summary>
     <div class="portfolio-row">
-      <img src="/images/18ACFM2025.jpg" class="portfolio-img slide" alt="ACFM 2025 slide">
-      <img src="/images/18ACFM2025.jpeg" class="portfolio-img photo" alt="ACFM 2025 photo">
+      <img src="/images/18ACFM2025.jpg" class="portfolio-img slide">
+      <img src="/images/18ACFM2025.jpeg" class="portfolio-img photo">
     </div>
   </details>
 
 
-
-- **Leidenfrost-induced active matter dynamics of spherical hydrogels**  
-  *(KSME Annual Conference 2024)*
-
+- **KSME Annual Conference 2024**  
+  <span class="talk-title">Explosive motion of spherical hydrogel via Leidenfrost effect</span>
   <details class="talk-toggle">
     <summary>📷 View presentation photos</summary>
     <div class="portfolio-row">
-      <img src="/images/KSME2024.jpg" class="portfolio-img slide" alt="KSME 2024 slide">
-      <img src="/images/KSME2024.jpeg" class="portfolio-img photo" alt="KSME 2024 photo">
+      <img src="/images/KSME2024.jpg" class="portfolio-img slide">
+      <img src="/images/KSME2024.jpeg" class="portfolio-img photo">
     </div>
   </details>
 ---
