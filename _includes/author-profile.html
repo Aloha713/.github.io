@@ -78,18 +78,6 @@
         </li>
       {% endif %}
 
-      <!-- Softlab (CUSTOM) : placed right below Google Scholar -->
-      {% if author.lab1 %}
-        <li class="author__softlab">
-          <a href="{{ author.lab1 }}" target="_blank" rel="noopener">
-            <img src="{{ '/images/Softlab.png' | prepend: base_path }}"
-                 alt="Softlab"
-                 class="author__softlab-icon" />
-            Softlab
-          </a>
-        </li>
-      {% endif %}
-
       {% if author.orcid %}
         <li>
           <a href="{{ author.orcid }}">

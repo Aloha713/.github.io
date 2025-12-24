@@ -43,7 +43,7 @@ author:
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
-  lab1              : "https://www.softlab.ajou.ac.kr"
+  # lab1              : "https://www.softlab.ajou.ac.kr"
 
 
   # Repositories and software development
