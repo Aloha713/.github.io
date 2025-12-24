@@ -63,3 +63,15 @@
 html[data-theme="dark"] .section-block::before {
   background-color: rgba(255, 255, 255, 0.18);
 }
+.portfolio-row {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.portfolio-img {
+  height: 260px;          /* ← 여기서 높이 통일 */
+  width: auto;
+  object-fit: contain;   /* 잘리지 않게 */
+  border-radius: 6px;    /* 선택 */
+}

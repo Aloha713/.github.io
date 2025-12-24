@@ -5,6 +5,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
+excerpt_separator: "<!--more-->"
 
 # Basic Site Settings
 locale                   : "en-US"
@@ -202,7 +203,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
 highlighter: rouge
 lsi: false
-excerpt_separator: "\n\n"
+# excerpt_separator: "\n\n"
 incremental: false
 
 
