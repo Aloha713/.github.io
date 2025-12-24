@@ -13,7 +13,7 @@ author_profile: true
 Recognized for outstanding academic performance (top 5% of the department).
 </div>
 
-**Capstone Design Award - Ajou University**   
+**Capstone Design Award (2025) - Ajou University**   
 
 <div class="section-block" markdown="1">
 - **Project**: Compliant-mechanism-based knee assistive device for osteoarthritis prevention  
@@ -29,7 +29,7 @@ Recognized for outstanding academic performance (top 5% of the department).
 - **Organized by**: Gyeonggi Province Rehabilitation Engineering Service Support Center  
 - **Focus**: Development of practical and user-centered assistive technologies
 
-- [Project Poster](/images/assistive-device-competition-2025-poster.pdf)
+- [Project Poster](/images/gyeonggi-assistive-device-competition-2025-poster.pdf)
 - [Award Ceremony Photo](https://at3d.or.kr/board/notice/view?idx=761)
 </div>
 
@@ -38,19 +38,18 @@ Recognized for outstanding academic performance (top 5% of the department).
 ## 🎤 Conference Presentations
 
 **Leidenfrost-induced active matter dynamics of spherical hydrogels**  
-<div class="section-block" markdown="1">
-(APS Division of Fluid Dynamics Meeting 2025)  
-- [Conference Presentation Photo](/images/APSDFD2025.jpeg)
-</div>
+(APS Division of Fluid Dynamics Meeting 2025)
+<img src="/images/APSDFD2025.jpg" width="48%">
+<img src="/images/APSDFD2025.jpeg" width="48%">
+
 
 **Leidenfrost-induced active matter dynamics of spherical hydrogels**  
-<div class="section-block" markdown="1">
-(Asian Congress of Fluid Mechanics 2025)  
-- [Conference Presentation Photo](/images/18ACFM2025.jpeg)
-</div>
+(Asian Congress of Fluid Mechanics 2025)
+<img src="/images/18ACFM2025.jpg" width="48%">
+<img src="/images/18ACFM2025.jpeg" width="48%">
+
 
 **Leidenfrost-induced active matter dynamics of spherical hydrogels**  
-<div class="section-block" markdown="1">
-(KSME Annual Conference 2024)  
-- [Conference Presentation Photo](/images/KSME2024.jpeg)
-</div>
+(KSME Annual Conference 2024)
+<img src="/images/KSME2024.jpg" width="48%">
+<img src="/images/KSME2024.jpeg" width="48%">
