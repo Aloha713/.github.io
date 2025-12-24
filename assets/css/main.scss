@@ -5,7 +5,7 @@
  * This file controls what is imported from /_sass
  *
  * Note that the files are processed in the order they are imported, so they are partly
- * sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
 @import
@@ -42,9 +42,6 @@
     "vendor/font-awesome/brands"
 ;
 
-/* =========================
-   Left vertical line blocks
-   ========================= */
 .section-block {
   position: relative;
   padding-left: 1.5rem;
@@ -58,18 +55,14 @@
   top: 0.3rem;
   bottom: 0.3rem;
 
-  width: 3px; /* thicker */
-  background-color: rgba(0, 0, 0, 0.22); /* light mode visibility */
+  width: 3px; /* ← 두께: 2px → 3px */
+  background-color: rgba(0, 0, 0, 0.22); /* ← 라이트 모드에서 더 잘 보이게 */
 }
 
 /* Dark mode */
 html[data-theme="dark"] .section-block::before {
   background-color: rgba(255, 255, 255, 0.18);
 }
-
-/* =========================
-   Portfolio images
-   ========================= */
 .portfolio-row {
   margin-left: 1.5rem;
   display: flex;
@@ -88,32 +81,32 @@ html[data-theme="dark"] .section-block::before {
   object-fit: cover;
 }
 
-.page__content li > strong {
-  display: block;
-  margin-bottom: 0.02rem;
-  line-height: 1.15;
-}
-
-.page__content ul li > p {
-  margin: 0.05rem 0;   /* ← 🔥 이 줄이 핵심 */
-}
-
+/* Conference presentation layout */
 .talk-meta {
-  margin-top: 0 !important;
-  margin-bottom: 0.05rem !important;
-  line-height: 1.15;
+  display: block;
+  font-size: 0.85rem;
+  color: #777;
+  margin: 0.1rem 0 0.05rem 0;
 }
 
 .talk-title {
-  margin-bottom: 0.08rem;
-  line-height: 1.25;
+  display: block;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0 0 0.15rem 0;
 }
 
 .talk-action {
-  margin-top: 0.04rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.85rem;
+  color: #1158b5;
+  margin: 0 0 0.35rem 0;
+  cursor: pointer;
 }
 
-/* 섹터 간 간격 유지 */
+/* 핵심: 리스트 간격 줄이기 */
 .page__content ul li {
   margin-bottom: 0.6rem !important;
 }
