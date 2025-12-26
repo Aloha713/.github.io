@@ -16,25 +16,25 @@ author_profile: true
     - **Project**: Compliant-mechanism-based knee assistive device for degenerative osteoarthritis prevention  
     - **Role**: Mechanical system design and prototyping, CAD-based modeling, machine learning, and theoretical modeling  
     - **Materials**:
-     [Project Poster](https://linc.ajou.ac.kr/acot/?m=30002&mode=view&idx=2557)
-     [Award Ceremony Photo](https://www.ajou.ac.kr/kr/ajou/news.do?mode=view&articleNo=350539)
-     
+        - [Project Poster](https://linc.ajou.ac.kr/acot/?m=30002&mode=view&idx=2557)
+        - [Award Ceremony Photo](https://www.ajou.ac.kr/kr/ajou/news.do?mode=view&articleNo=350539)
+
 <br/>
 
 - **Gyeonggi-do Assistive Device Idea Competition (2025)** <br/> 
     - **Organized by**: Gyeonggi Province Rehabilitation Engineering Service Support Center  
     - **Focus**: Development of practical and user-centered assistive technologies  
     - **Materials**:
-     [Project Poster](/images/ass_devi/gyeonggi-assistive-device-competition-2025-poster.pdf)
-     [Award Ceremony Photo](https://at3d.or.kr/board/notice/view?idx=761)
-     [Project Overview Video](https://www.youtube.com/watch?v=9nMlDRh-M7E)
-     <details class="talk-toggle">
-        <summary class="talk-action">View project photos</summary>
-        <div class="portfolio-row">
-            <img src="/images/ass_devi/ass_devi2.png" class="portfolio-img auto">
-            <img src="/images/ass_devi/ass_devi.png" class="portfolio-img photo">
-        </div>
-        </details>
+        - [Project Poster](/images/ass_devi/gyeonggi-assistive-device-competition-2025-poster.pdf)
+        - [Award Ceremony Photo](https://at3d.or.kr/board/notice/view?idx=761)
+        - [Project Overview Video](https://www.youtube.com/watch?v=9nMlDRh-M7E)
+        - <details class="talk-toggle">
+            <summary class="talk-action">View project photos</summary>
+            <div class="portfolio-row">
+                <img src="/images/ass_devi/ass_devi2.png" class="portfolio-img auto">
+                <img src="/images/ass_devi/ass_devi.png" class="portfolio-img photo">
+            </div>
+            </details>
     
 ---
 
