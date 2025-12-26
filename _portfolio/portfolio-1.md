@@ -32,12 +32,11 @@ author_profile: true
 
 ## 🏆 Awards & Honors
 
-- **[Dean’s List](https://www.ajou.ac.kr/eng/intro/dean-2021-2023.do#a1)** <br/>
+- **[Dean’s List](https://www.ajou.ac.kr/eng/intro/dean-2021-2023.do#a1)**
     - **Spring 2024, Spring 2025** <br/>
     Recognized for outstanding academic performance (top 5% of the department).
-<br/>
 
-- **Capstone Design Award (2025) – Ajou University** <br/>
+- **Capstone Design Award (2025) – Ajou University**
     - **Project**: Compliant-mechanism-based knee assistive device for degenerative osteoarthritis prevention  
     - **Role**: Mechanical system design and prototyping, CAD-based modeling, machine learning, and theoretical modeling  
     - **Materials**:
@@ -45,7 +44,7 @@ author_profile: true
         - [Award Ceremony Photo](https://www.ajou.ac.kr/kr/ajou/news.do?mode=view&articleNo=350539)
 <br/>
 
-- **Gyeonggi-do Assistive Device Idea Competition (2025)** <br/> 
+- **Gyeonggi-do Assistive Device Idea Competition (2025)**
     - **Organized by**: Gyeonggi province rehabilitation engineering service support center  
     - **Project**: Compliant-mechanism-based knee assistive device for older adults
     - **Role**: Mechanical system design and prototyping, CAD-based modeling, machine learning, and theoretical modeling  
@@ -73,7 +72,7 @@ author_profile: true
       <img src="/images/APSDFD2025/APSDFD2025.jpg" class="portfolio-img slide">
       <img src="/images/APSDFD2025/APSDFD2025.jpeg" class="portfolio-img photo">
     </div>
-  </details><br/>
+  </details>
 
 - **Asian Congress of Fluid Mechanics** <span class="talk-meta">(Seoul, South Korea · Sep 2025)</span>
   **<span class="talk-title">Leidenfrost-induced active matter dynamics of spherical hydrogels</span>**
@@ -83,7 +82,7 @@ author_profile: true
       <img src="/images/18ACFM/18ACFM2025.jpg" class="portfolio-img slide">
       <img src="/images/18ACFM/18ACFM2025.jpeg" class="portfolio-img photo">
     </div>
-  </details><br/>
+  </details>
 
 - **KSME Annual Conference**  <span class="talk-meta">(Jeju, South Korea · Nov 2024)</span>
   **<span class="talk-title">Explosive motion of spherical hydrogel via Leidenfrost effect</span>**
