@@ -213,9 +213,10 @@
       {% for award in cv.awards %}
       <li class="cv-item">
         <div class="cv-item-header">
-          <div class="cv-item-title">{{ award.title }}</div>
+          <div class="cv-item-title cv-bullet">{{ award.title }}</div>
           <div class="cv-item-date">{{ award.date }}</div>
         </div>
+
         <div class="cv-item-content">
           <div class="cv-item-subtitle">{{ award.awarder }}</div>
           {% if award.summary %}
