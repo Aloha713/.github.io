@@ -76,10 +76,11 @@
             {% if education.endDate %}{{ education.endDate }}{% endif %}
           </div>
         </div>
+
         <div class="cv-item-content">
           <div class="cv-item-subtitle">{{ education.studyType }} in {{ education.area }}</div>
           {% if education.gpa %}
-          <div class="cv-item-detail">GPA: {{ education.gpa }}</div>
+          <div class="cv-item-detail cv-compact">GPA: {{ education.gpa }}</div>
           {% endif %}
         </div>
       </li>
@@ -96,22 +97,23 @@
       {% for work in cv.work %}
       <li class="cv-item">
         <div class="cv-item-header">
-          <div class="cv-item-title">{{ work.position }}</div>
+          <div class="cv-item-title">
+            {{ work.company }} <span class="cv-item-sep">·</span> {{ work.position }}
+          </div>
           <div class="cv-item-date">
             {% if work.startDate %}{{ work.startDate }}{% endif %}
             {% if work.startDate and work.endDate %} – {% endif %}
             {% if work.endDate %}{{ work.endDate }}{% endif %}
           </div>
         </div>
-        <div class="cv-item-content">
-          <div class="cv-item-subtitle">{{ work.company }}</div>
 
+        <div class="cv-item-content">
           {% if work.advisor %}
-          <div class="cv-item-detail"><strong>Advisor:</strong> {{ work.advisor }}</div>
+          <div class="cv-item-detail cv-compact"><strong>Advisor:</strong> {{ work.advisor }}</div>
           {% endif %}
 
           {% if work.summary and work.summary != "" %}
-          <div class="cv-item-detail">{{ work.summary }}</div>
+          <div class="cv-item-detail cv-compact">{{ work.summary }}</div>
           {% endif %}
         </div>
       </li>
@@ -128,22 +130,21 @@
       {% for r in cv.research %}
       <li class="cv-item">
         <div class="cv-item-header">
-          <div class="cv-item-title">{{ r.role }}</div>
+          <div class="cv-item-title">{{ r.institution }} <span class="cv-item-sep">·</span> {{ r.role }}</div>
           <div class="cv-item-date">
             {% if r.startDate %}{{ r.startDate }}{% endif %}
             {% if r.startDate and r.endDate %} – {% endif %}
             {% if r.endDate %}{{ r.endDate }}{% endif %}
           </div>
         </div>
-        <div class="cv-item-content">
-          <div class="cv-item-subtitle">{{ r.institution }}</div>
 
+        <div class="cv-item-content">
           {% if r.topics and r.topics.size > 0 %}
-          <div class="cv-item-detail"><strong>Research topics:</strong> {{ r.topics | join: ", " }}</div>
+          <div class="cv-item-detail cv-compact"><strong>Topics:</strong> {{ r.topics | join: ", " }}</div>
           {% endif %}
 
           {% if r.keywords and r.keywords.size > 0 %}
-          <div class="cv-item-detail"><strong>Keywords:</strong> {{ r.keywords | join: ", " }}</div>
+          <div class="cv-item-detail cv-compact"><strong>Keywords:</strong> {{ r.keywords | join: ", " }}</div>
           {% endif %}
         </div>
       </li>
@@ -165,9 +166,9 @@
         </div>
         <div class="cv-item-content">
           <div class="cv-item-subtitle">{{ publication.publisher }}</div>
-          {% if publication.summary %}<div class="cv-item-detail">{{ publication.summary }}</div>{% endif %}
+          {% if publication.summary %}<div class="cv-item-detail cv-compact">{{ publication.summary }}</div>{% endif %}
           {% if publication.website %}
-          <div class="cv-item-detail"><a href="{{ publication.website }}" target="_blank">View Publication</a></div>
+          <div class="cv-item-detail cv-compact"><a href="{{ publication.website }}" target="_blank">View Publication</a></div>
           {% endif %}
         </div>
       </li>
@@ -188,9 +189,12 @@
           <div class="cv-item-date">{{ talk.date | slice: 0, 4 }}</div>
         </div>
         <div class="cv-item-content">
-          <div class="cv-item-subtitle">{{ talk.event }}</div>
-          {% if talk.location %}<div class="cv-item-detail">{{ talk.location }}</div>{% endif %}
-          {% if talk.description and talk.description != "" %}<div class="cv-item-detail">{{ talk.description }}</div>{% endif %}
+          <div class="cv-item-subtitle">
+            {{ talk.event }}{% if talk.location %} <span class="cv-item-sep">·</span> {{ talk.location }}{% endif %}
+          </div>
+          {% if talk.description and talk.description != "" %}
+          <div class="cv-item-detail cv-compact">{{ talk.description }}</div>
+          {% endif %}
         </div>
       </li>
       {% endfor %}
@@ -211,7 +215,7 @@
         </div>
         <div class="cv-item-content">
           <div class="cv-item-subtitle">{{ award.awarder }}</div>
-          {% if award.summary %}<div class="cv-item-detail">{{ award.summary }}</div>{% endif %}
+          {% if award.summary %}<div class="cv-item-detail cv-compact">{{ award.summary }}</div>{% endif %}
         </div>
       </li>
       {% endfor %}
@@ -219,7 +223,7 @@
   </div>
   {% endif %}
 
-  <!-- Optional sections (kept as-is, but safe) -->
+  <!-- Optional sections -->
   {% if cv.skills and cv.skills.size > 0 %}
   <div class="cv-section">
     <h2>Skills</h2>
@@ -244,7 +248,7 @@
       <li class="cv-item">
         <div class="cv-item-content">
           <div class="cv-item-title">{{ language.language }}</div>
-          <div class="cv-item-detail">{{ language.fluency }}</div>
+          <div class="cv-item-detail cv-compact">{{ language.fluency }}</div>
         </div>
       </li>
       {% endfor %}
@@ -261,7 +265,7 @@
         <div class="cv-item-content">
           <div class="cv-item-title">{{ interest.name }}</div>
           {% if interest.keywords and interest.keywords.size > 0 %}
-          <div class="cv-item-detail">{{ interest.keywords | join: ", " }}</div>
+          <div class="cv-item-detail cv-compact">{{ interest.keywords | join: ", " }}</div>
           {% endif %}
         </div>
       </li>
@@ -278,7 +282,7 @@
       <li class="cv-item">
         <div class="cv-item-content">
           <div class="cv-item-title">{{ reference.name }}</div>
-          {% if reference.reference %}<div class="cv-item-detail">{{ reference.reference }}</div>{% endif %}
+          {% if reference.reference %}<div class="cv-item-detail cv-compact">{{ reference.reference }}</div>{% endif %}
         </div>
       </li>
       {% endfor %}
