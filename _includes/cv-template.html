@@ -10,6 +10,67 @@
   @media (min-width: 80em) {
     .archive { width: 70%; }
   }
+
+  /* ===== CV readability boost ===== */
+  .cv-section { margin-bottom: 2.2rem; }
+  .cv-section h2 { margin-bottom: 1.0rem; }
+
+  .cv-list { list-style: none; padding-left: 0; margin: 0; }
+  .cv-item { margin-bottom: 1.25rem; }
+
+  .cv-item-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: baseline;
+  }
+
+  .cv-item-title {
+    font-weight: 650;
+    line-height: 1.25;
+  }
+
+  .cv-item-date {
+    white-space: nowrap;
+    color: #777;
+    font-size: 0.95rem;
+  }
+
+  /* ✅ 핵심: 제목 아래 내용만 들여쓰기 */
+  .cv-item-content { margin-left: 1.1rem; }
+
+  .cv-item-subtitle {
+    margin-top: 0.25rem;
+    color: #555;
+    line-height: 1.35;
+  }
+
+  .cv-item-detail {
+    margin-top: 0.35rem;
+    color: #666;
+    font-size: 0.92rem;
+    line-height: 1.45;
+  }
+  .cv-item-detail.cv-compact { margin-top: 0.2rem; }
+
+  /* Presentations */
+  .cv-present-meta{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #888;
+    margin-left: 0.25rem;
+  }
+  .cv-present-title{
+    font-weight: 600;
+    color: #666;
+  }
+
+  /* Dark mode */
+  html[data-theme="dark"] .cv-item-date { color: #aaa; }
+  html[data-theme="dark"] .cv-item-subtitle { color: #cfcfcf; }
+  html[data-theme="dark"] .cv-item-detail { color: #bdbdbd; }
+  html[data-theme="dark"] .cv-present-meta { color: #a7a7a7; }
+  html[data-theme="dark"] .cv-present-title { color: #cfcfcf; }
 </style>
 
 <div class="cv-container">
@@ -67,9 +128,10 @@
     <h2>Education</h2>
     <ul class="cv-list">
       {% for education in cv.education %}
-      <li class="cv-item cv-bullet">
+      <li class="cv-item">
         <div class="cv-item-header">
-          <div class="cv-item-title">{{ education.institution }}</div>
+          <!-- 점은 직접 텍스트로 -->
+          <div class="cv-item-title">• {{ education.institution }}</div>
           <div class="cv-item-date">
             {% if education.startDate %}{{ education.startDate }}{% endif %}
             {% if education.startDate and education.endDate %} – {% endif %}
@@ -89,23 +151,21 @@
   </div>
   {% endif %}
 
-  <!-- Experience (Research/Work combined) -->
+  <!-- Research Experience (work 기반: topics/keywords/advisor 표시) -->
   {% if cv.work and cv.work.size > 0 %}
   <div class="cv-section">
     <h2>Research Experience</h2>
     <ul class="cv-list">
       {% for work in cv.work %}
-      <li class="cv-item cv-bullet">
+      <li class="cv-item">
 
         <div class="cv-item-header">
-          <!-- 한 줄: Position — Institution (Lab) -->
           <div class="cv-item-title">
-            {{ work.position }}
+            • {{ work.position }}
             {% if work.institution %} — {{ work.institution }}{% endif %}
             {% if work.lab %} ({{ work.lab }}){% endif %}
           </div>
 
-          <!-- 날짜 -->
           <div class="cv-item-date">
             {% if work.startDate %}{{ work.startDate }}{% endif %}
             {% if work.startDate and work.endDate %} – {% endif %}
@@ -141,7 +201,7 @@
       {% for publication in cv.publications %}
       <li class="cv-item">
         <div class="cv-item-header">
-          <div class="cv-item-title">{{ publication.name }}</div>
+          <div class="cv-item-title">• {{ publication.name }}</div>
           <div class="cv-item-date">{{ publication.releaseDate | slice: 0, 4 }}</div>
         </div>
         <div class="cv-item-content">
@@ -164,12 +224,11 @@
 
     <ul class="cv-list">
       {% for talk in cv.presentations %}
-      <li class="cv-item cv-bullet">
+      <li class="cv-item">
 
-        <!-- 1) 학회명(메인) + (장소 · 날짜)(서브) -->
         <div class="cv-item-header">
           <div class="cv-item-title">
-            {{ talk.event }}
+            • {{ talk.event }}
             {% if talk.location or talk.date %}
             <span class="cv-present-meta">
               (
@@ -186,14 +245,12 @@
           {% endif %}
         </div>
 
-        <!-- 2) 발표 제목(아래로) -->
         {% if talk.name %}
         <div class="cv-item-content">
-          <div class="cv-item-detail cv-present-title">{{ talk.name }}</div>
+          <div class="cv-present-title">{{ talk.name }}</div>
         </div>
         {% endif %}
 
-        <!-- (선택) 설명 -->
         {% if talk.description and talk.description != "" %}
         <div class="cv-item-content">
           <div class="cv-item-detail cv-compact">{{ talk.description }}</div>
@@ -206,6 +263,7 @@
   </div>
   {% endif %}
 
+  <!-- Awards -->
   {% if cv.awards and cv.awards.size > 0 %}
   <div class="cv-section">
     <h2>Awards & Honors</h2>
@@ -213,7 +271,7 @@
       {% for award in cv.awards %}
       <li class="cv-item">
         <div class="cv-item-header">
-          <div class="cv-item-title cv-bullet">{{ award.title }}</div>
+          <div class="cv-item-title">• {{ award.title }}</div>
           <div class="cv-item-date">{{ award.date }}</div>
         </div>
 
@@ -252,8 +310,10 @@
     <ul class="cv-list">
       {% for language in cv.languages %}
       <li class="cv-item">
+        <div class="cv-item-header">
+          <div class="cv-item-title">• {{ language.language }}</div>
+        </div>
         <div class="cv-item-content">
-          <div class="cv-item-title">{{ language.language }}</div>
           <div class="cv-item-detail cv-compact">{{ language.fluency }}</div>
         </div>
       </li>
@@ -268,8 +328,10 @@
     <ul class="cv-list">
       {% for interest in cv.interests %}
       <li class="cv-item">
+        <div class="cv-item-header">
+          <div class="cv-item-title">• {{ interest.name }}</div>
+        </div>
         <div class="cv-item-content">
-          <div class="cv-item-title">{{ interest.name }}</div>
           {% if interest.keywords and interest.keywords.size > 0 %}
           <div class="cv-item-detail cv-compact">{{ interest.keywords | join: ", " }}</div>
           {% endif %}
@@ -286,8 +348,10 @@
     <ul class="cv-list">
       {% for reference in cv.references %}
       <li class="cv-item">
+        <div class="cv-item-header">
+          <div class="cv-item-title">• {{ reference.name }}</div>
+        </div>
         <div class="cv-item-content">
-          <div class="cv-item-title">{{ reference.name }}</div>
           {% if reference.reference %}<div class="cv-item-detail cv-compact">{{ reference.reference }}</div>{% endif %}
         </div>
       </li>

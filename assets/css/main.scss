@@ -198,28 +198,12 @@ html[data-theme="dark"] .cv-present-title{
   color: #cfcfcf;
 }
 
-/* --- remove default list bullets (important) --- */
-.cv-list {
-  list-style: none;
-  padding-left: 0;
-  margin-left: 0;
+/* 제목 아래 내용만 들여쓰기 */
+.cv-item-content {
+  margin-left: 1.1rem;   /* 원하는 들여쓰기 크기 */
 }
 
-/* --- bullet only for title line items --- */
-.cv-bullet {
-  position: relative;
-  padding-left: 1.1rem;  /* 들여쓰기 */
+/* 조금 더 촘촘하게 */
+.cv-item-detail.cv-compact {
+  margin-left: 1.1rem;
 }
-
-.cv-bullet::before {
-  content: "•";
-  position: absolute;
-  left: 0;
-  top: 0.35em;
-  font-size: 1.15rem;
-  color: #666;
-  line-height: 1;
-}
-
-/* dark mode bullet */
-html[data-theme="dark"] .cv-bullet::before { color: #aaa; }
