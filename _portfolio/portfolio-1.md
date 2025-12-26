@@ -5,10 +5,10 @@ author_profile: true
 ---
 ## 🎓 Education
 
-- **M.S. in Mechanical Engineering** (*Sep. 2025 – Present*)
+- **M.S. in Mechanical Engineering** *Sep. 2025 – Present*
   [Ajou University](https://www.ajou.ac.kr/en/index.do#a), Suwon, South Korea   
 
-- **B.S. in Mechanical Engineering** (*Mar. 2020 – Aug. 2025*)
+- **B.S. in Mechanical Engineering** *Mar. 2020 – Aug. 2025*
   [Ajou University](https://www.ajou.ac.kr/en/index.do#a), Suwon, South Korea
 
 
