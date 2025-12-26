@@ -5,32 +5,27 @@ author_profile: true
 ---
 ## 🎓 Education
 
-**Sep. 2025 – Present**  
-**M.S. in Mechanical Engineering**  
+**M.S. in Mechanical Engineering** (*Sep. 2025 – Present*) 
 [Ajou University](https://www.ajou.ac.kr/en/index.do#a), Suwon, South Korea  
-
-**Mar. 2020 – Aug. 2025**  
-**B.S. in Mechanical Engineering**  
-[Ajou University](https://www.ajou.ac.kr/en/index.do#a), Suwon, South Korea  
+ 
+ 
+**B.S. in Mechanical Engineering** (*Mar. 2020 – Aug. 2025*)  
+[Ajou University](https://www.ajou.ac.kr/en/index.do#a), Suwon, South Korea
 
 
 ## 🧐 Research Experience
 
-**Graduate Research Student**  
-Softlab, Ajou University  
-*Sep. 2025 – Present*  
-
+**Graduate Research Student** (*Sep. 2025 – Present*)  
+[Softlab](https://www.softlab.ajou.ac.kr), Ajou University  
 - **Topics**: Boundary-driven active matter in soft hydrogels, Hair dynamics  
 - **Keywords**: Active matter, Elastic Leidenfrost effect, Hair dynamics  
-- **Advisor**: Prof. Jonghyun Ha  
+- **Advisor**: Prof. [Jonghyun Ha](https://www.ajou.ac.kr/me/people/faculty.do?mode=view&empl_no=$cms$EwBmwRhAWZqA&mngt_no=$cms$EwBmwRhAWZqA&uniCd=h&deptCd=$cms$CIZQDAzGYIxgTDIA&cate=2) 
 
-**Undergraduate Research Student**  
-Softlab, Ajou University  
-*Mar. 2023 – Aug. 2025*  
-
+**Undergraduate Research Student** (*Mar. 2023 – Aug. 2025*)  
+[Softlab](https://www.softlab.ajou.ac.kr), Ajou University   
 - **Topics**: Boundary-driven active matter in soft hydrogels  
 - **Keywords**: Active matter, Elastic Leidenfrost effect  
-- **Advisor**: Prof. Jonghyun Ha  
+- **Advisor**: Prof. [Jonghyun Ha](https://www.ajou.ac.kr/me/people/faculty.do?mode=view&empl_no=$cms$EwBmwRhAWZqA&mngt_no=$cms$EwBmwRhAWZqA&uniCd=h&deptCd=$cms$CIZQDAzGYIxgTDIA&cate=2)   
 
 
 

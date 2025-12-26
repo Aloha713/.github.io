@@ -61,7 +61,7 @@
       "institution": "Ajou University",
       "area": "Mechanical Engineering",
       "studyType": "M.S.",
-      "startDate": "2025-09",
+      "startDate": "Sep 2025",
       "endDate": "Present",
       "gpa": null,
       "courses": []
@@ -70,8 +70,8 @@
       "institution": "Ajou University",
       "area": "Mechanical Engineering",
       "studyType": "B.S.",
-      "startDate": "2020-03",
-      "endDate": "2025-08",
+      "startDate": "Mar 2020",
+      "endDate": "Aug 2025",
       "gpa": null,
       "courses": []
     }
