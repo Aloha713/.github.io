@@ -21,7 +21,6 @@ author_profile: true
     - Hair Frizz dynamics 
   - **Keywords**: Active matter, Elastic Leidenfrost effect, Hair dynamics  
   - **Advisor**: Prof. [Jonghyun Ha](https://www.ajou.ac.kr/me/people/faculty.do?mode=view&empl_no=$cms$EwBmwRhAWZqA&mngt_no=$cms$EwBmwRhAWZqA&uniCd=h&deptCd=$cms$CIZQDAzGYIxgTDIA&cate=2) 
-
 &nbsp;
 
 - **Undergraduate Research Student** (*Mar 2023 – Aug 2025*)  
@@ -37,7 +36,6 @@ author_profile: true
 - **[Dean’s List](https://www.ajou.ac.kr/eng/intro/dean-2021-2023.do#a1)**
     - **Spring 2024, Spring 2025** <br/>
     Recognized for outstanding academic performance (top 5% of the department).
-
 &nbsp;
 
 - **Capstone Design Award (2025) – Ajou University**
@@ -46,7 +44,6 @@ author_profile: true
     - **Materials**:
         - [Project Poster](https://linc.ajou.ac.kr/acot/?m=30002&mode=view&idx=2557)
         - [Award Ceremony Photo](https://www.ajou.ac.kr/kr/ajou/news.do?mode=view&articleNo=350539)
-
 &nbsp;
 
 - **Gyeonggi-do Assistive Device Idea Competition (2025)**
