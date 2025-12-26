@@ -56,8 +56,8 @@ author_profile: true
   <details class="talk-toggle">
     <summary class="talk-action">View presentation photos</summary>
     <div class="portfolio-row">
-      <img src="/images/18ACFM2025/18ACFM2025.jpg" class="portfolio-img slide">
-      <img src="/images/18ACFM2025/18ACFM2025.jpeg" class="portfolio-img photo">
+      <img src="/images/18ACFM/18ACFM2025.jpg" class="portfolio-img slide">
+      <img src="/images/18ACFM/18ACFM2025.jpeg" class="portfolio-img photo">
     </div>
   </details>
 <br/>
