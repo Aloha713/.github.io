@@ -3,14 +3,14 @@
     "name": "Minseong Cho",
     "email": "mscho713@ajou.ac.kr",
     "phone": "+82 010-8803-7786",
-    "website": "https://aloha713.github.io/cv-json/",
+    "website": "https://aloha713.github.io",
     "summary": "Currently a graduate researcher at Ajou University. My research interests include active matter dynamics, the Leidenfrost effect, and hair dynamics.",
     "location": {
       "address": "",
       "postalCode": "",
       "city": "Suwon",
-      "countryCode": "KR",
-      "region": ""
+      "countryCode": "",
+      "region": "South Korea"
     },
     "profiles": [
       {
@@ -20,20 +20,18 @@
       }
     ]
   },
-  "work experience": [
+  "work": [
     {
       "name": "Softlab, Ajou University",
       "location": "Suwon, South Korea",
       "position": "Undergraduate Research Student",
       "startDate": "2023-03",
       "endDate": "2025-08",
-      "summary": "Undergraduate research intern studying boundary-driven active matter systems based on the elastic Leidenfrost effect in soft hydrogels.",
+      "summary": "Conducted undergraduate research on boundary-driven active matter dynamics based on the elastic Leidenfrost effect in soft hydrogels.",
       "highlights": [
         "Advisor: Prof. Jonghyun Ha",
-        "Investigated boundary-driven active matter powered by the Leidenfrost effect in soft hydrogels",
-        "Designed and conducted experiments on hydrogel dynamics under thermal gradients",
-        "Analyzed motion, energy injection, and collective dynamics using quantitative data analysis",
-        "Keywords: Active matter, boundary-driven motion, elastic Leidenfrost effect"
+        "Research topic: Boundary-driven active matter in soft hydrogels",
+        "Keywords: Active matter, elastic Leidenfrost effect"
       ]
     }
   ],
@@ -102,8 +100,8 @@
     {
       "title": "Gyeonggi-do Assistive Device Idea Competition",
       "date": "2025",
-      "awarder": "Gyeonggi Province, South Korea",
-      "summary": "Awarded for developing a practical and user-centered assistive device concept."
+      "awarder": "Gyeonggi province rehabilitation engineering service support center, South Korea",
+        "summary": "Awarded for a compliant-mechanism-based knee assistive device designed for older adults."
     }
   ],
   "teaching": [],

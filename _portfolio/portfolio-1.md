@@ -22,8 +22,9 @@ author_profile: true
 <br/>
 
 - **Gyeonggi-do Assistive Device Idea Competition (2025)** <br/> 
-    - **Organized by**: Gyeonggi Province Rehabilitation Engineering Service Support Center  
-    - **Focus**: Development of practical and user-centered assistive technologies  
+    - **Organized by**: Gyeonggi province rehabilitation engineering service support center  
+    - **Project**: Compliant-mechanism-based knee assistive device for older adults
+    - **Role**: Mechanical system design and prototyping, CAD-based modeling, machine learning, and theoretical modeling  
     - **Materials**:
         - [Project Poster](/images/ass_devi/gyeonggi-assistive-device-competition-2025-poster.pdf)
         - [Award Ceremony Photo](https://at3d.or.kr/board/notice/view?idx=761)
